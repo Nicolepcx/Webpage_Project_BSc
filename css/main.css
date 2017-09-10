@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: #381705;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 1%;
+}
+.nav-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5dd1f9;
+    height: 80px;
+    a:hover {
+    color: white;
+    text-decoration: none;
+}
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to brown on hover */
+li a:hover {
+    background-color: #381705;
+}
